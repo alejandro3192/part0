@@ -1,0 +1,16 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: {"message":"note created"}, payload: {content: "TRENCO", date: "2023-05-07T15:16:14.049Z"}
+
+
+
+note over browser:
+browser starts executing js-code
+that send new note to create to the server
+end note
+
+note over server:
+server create a note a give a response that´s ok (201)
+not reload page (get the html again) needed
+end notetitle 
+
+
